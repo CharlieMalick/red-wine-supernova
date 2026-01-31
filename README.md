@@ -4,8 +4,11 @@ Overview:
 
 Data:
     The project utilizes the Wine Quality Dataset (available via the UCI Machine Learning Repository).
+    
     Source Files: winequality-red.csv and winequality-white.csv are stored in the data_raw/ directory to ensure data integrity and provenance.
+    
     Processing: All data cleaning, feature engineering (e.g., creating a "color" dummy variable), and exploratory data analysis (EDA) are performed within the main Jupyter Notebook (.ipynb).
+    
     Both the winequality files (red and white) are in a data_raw file, since both of them are untouched. They are modified and expanded upon in the ipynb document.
 
 Environment Setup:
